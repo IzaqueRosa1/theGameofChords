@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Absolute ear coach</title>
+</head>
+<body>
+
+    <div class="GameView">
+        <div class="top">
+            <div class="title">
+                <p>Triades o jogo do músico</p>
+            </div>
+            <div>
+                <p>O jogo consiste em selecionar as notas para formar a triade da nota sorteada</p>
+                <p>Você terá 3 chances para acertar, caso contrario o jogo sera finalizado e reiniciado</p>
+            </div>
+            <div>
+                <p>Após 12 acertos o jogo será finalizado</p>
+            </div>
+        </div>
+        <div id="content"></div>
+        <div class="botton">
+            <button id="start" onclick="sortearNotas()">Start</button>
+            <button>Check</button>
+            <button id="start" onclick="sortearNotas()">Next</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
